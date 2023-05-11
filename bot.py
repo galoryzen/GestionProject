@@ -26,7 +26,7 @@ def handle_image(update: Update, context: CallbackContext) -> None:
         
     
     save_user(user.username, text, amount)
-    update.message.reply_text(f'Mi vale estas bien pobre, como asi que una transferencia de ${amount} pesos? Eso es lo que me gasto yo en un fincho con las babys')
+    update.message.reply_text(f'transferencia de ${amount} pesos?')
 
 
 
